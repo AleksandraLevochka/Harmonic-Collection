@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&family=Work+Sans:ital,wght@0,100;0,300;0,400;0,500;0,600;1,400;1,500&display=swap');
 
 body {
-    background-color:#ECEBE8;
+   background-color:#fcf6e1;
     font-family: 'Work Sans', sans-serif;
 }
 
@@ -21,7 +21,7 @@ h1 {
     max-width: 800px;
     margin-left: 50px;
     text-align:left;
-    color: #606060;
+    color: #592828;
  }
 
  .paragraph2 {
@@ -31,7 +31,7 @@ h1 {
     margin-left: 30px;
     margin-top: 20px;
     text-align: left;
-    color: black;
+    color: #592828;
  }
 
  .image {
@@ -60,4 +60,5 @@ h1 {
     font-size: 18px;
     margin-left: 30px;
     margin-top: 80px;
+    color: #592828;
  }

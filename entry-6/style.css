@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&family=Work+Sans:ital,wght@0,100;0,300;0,400;0,500;0,600;1,400;1,500&display=swap');
+
+body {
+   background-color:#fcf6e1;
+}
+
+h1 {
+    font-weight:400;
+    font-size: 90px;
+    margin-left: 50px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: #e65c00;
+    font-family: 'Pinyon Script';
+    text-align: center;
+ }
+
+
+ .paragraph2 {
+    font-weight: 400;
+    font-size: 40px;
+    margin-top: 30px;
+    text-align:center; 
+    font-style: italic;
+    color: #592828;
+ }

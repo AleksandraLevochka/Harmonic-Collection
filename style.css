@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&family=Poppins:ital,wght@0,200;0,300;0,400;0,600;1,300;1,400&display=swap');
 
+body {
+  background-color:#fcf6e1;
+}
+
 a {
     color: inherit; 
     text-decoration: none; 
@@ -15,6 +19,7 @@ a {
     padding-bottom: 50px;
     padding-top: 10px;
     font-family: 'Poppins';
+    color: #592828;
     font-weight: 600;
     font-size:large;
 }
@@ -23,7 +28,7 @@ a {
     position: relative;
     width: 100%;
     padding-top: 56.25%; 
-    background-image: url('images/img.jpeg');
+    background-image: url('images/cover7.jpg');
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat; 
@@ -39,13 +44,13 @@ a {
 }
 
 .h1 {
-    font-family: "Playfair Display"; 
-    font-style: italic;
+    font-family: 'Poppins';
+    color: #e65c00;
     font-weight: 400;
-    font-size: 100px;
+    font-size: 40px;
     text-align: center;
     margin-top: 100px;
-    margin-bottom: 5px;
+    margin-bottom: 20px;
 }
 
 .h1-break {
@@ -60,10 +65,12 @@ a {
 
 .h2 {
     font-family: 'Poppins';
+    color: #e65c00;
     font-weight: 300;
     font-size: 30px;
     text-align: center;
-    margin-bottom: 100px;
+    margin-bottom: 10px;
+    margin-top: 100px;
 }
 
 .img {
@@ -76,12 +83,13 @@ a {
     align-items: center; 
     height: 50vh; 
     flex-direction: column;
-    margin-bottom: 150px;
-    margin-top: 150px;
+    margin-bottom: 30px;
+    margin-top: 30px;
   }
 
 .paragraph1 {
     font-family: 'Poppins';
+    color: #592828;
     font-weight: 300;
     font-size: 25px;
     max-width: 800px;
@@ -115,10 +123,11 @@ a {
   }
   
   h2 {
-    font-family: 'Playfair Display';
+    font-family: 'Pinyon Script';
     font-style: italic;
-    font-weight: 500; /* Adjust the font weight as needed */
-    font-size: 24px; /* Adjust the font size as needed */
+    color: #e65c00;
+    font-weight: 500; 
+    font-size: 40px; 
     margin: 10px 0;
   }
   
@@ -145,6 +154,7 @@ a {
 
   .paragraph2 {
     font-family: 'Poppins';
+    color: #592828; 
     font-weight: 300;
     font-size: 18px;
     max-width: 800px;
