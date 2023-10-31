@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&family=Poppins:ital,wght@0,200;0,300;0,400;0,600;1,200;1,300;1,400&display=swap');
+
+body {
+   background-color:#fcf6e1;
+   font-family: 'Poppins';
+   
+}
+
+h1 {
+    font-weight:400;
+    font-size: 80px;
+    margin-left: 50px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-family: 'Pinyon Script';
+    color: #e65c00;
+
+ }
+
+ .paragraph1 {
+    font-weight: 400;
+    font-size: 20px;
+    max-width: 60ch;
+    margin-left: 40px;
+    margin-top: 30px;
+    text-align:left;
+    color: #592828;
+ }
+
+
+ .paragraph2 {
+    font-weight: 400;
+    font-size: 20px;
+    max-width: 60ch;
+    margin-top: -220px;
+    margin-right: 100px;
+    margin-left: auto;
+    text-align:left;
+    color: #592828;
+ }
+
+ .custom-positioning {
+   text-align: left; /* Align text content to the left */
+ }
+
+
+ .img {
+    max-width: 80%;
+    margin-left: 200px;
+    margin-top: -140px;
+    transform: rotate(-10deg);
+    transition: all 0.3s ease;
+ }
+
+ .img2 {
+   max-width: 48%;
+   align-items: center;
+ }
+
+ .img:hover {
+    transform: scale(1);
+ }
+
+ 

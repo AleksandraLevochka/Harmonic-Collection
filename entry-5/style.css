@@ -35,7 +35,7 @@ h1 {
    align-items:flex-start;
    justify-content: center;
    background-color: #F9CCE6;
-   padding: 50px;
+   padding: 300px;
    margin-bottom: 50px;
 }
  
@@ -65,4 +65,23 @@ h1 {
    text-align:center; 
    font-style: italic;
    color: #592828;
+}
+
+.icons {
+   height: 191px;
+   width: 186px;
+   position: fixed;
+}
+
+.pic1 {
+      left: 35px;
+      top: 60px;
+      position: absolute;
+    max-width: 300px;
+    transition: all 0.3s ease;
+    transform: scale(1);
+}
+
+.pic1:hover {
+   transform: scale(1.25);
 }
