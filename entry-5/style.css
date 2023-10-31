@@ -11,10 +11,6 @@ a {
    text-decoration: none; 
  }
 
- hr {
-   border: 0.5px solid #333; /* Customize the color and style of the line */
-   margin: 10px 0; /* Adjust spacing above and below the line */
- }
 
 .navigation {
    display: flex; 
