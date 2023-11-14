@@ -60,9 +60,38 @@
     </tr>
   </table>
 
+  <div class="gallery-container">
+    <div class="gallery">
+        <img src="../entry-9/images/Artboard1.jpg">
+        <img src="../entry-9/images/Artboard2.jpg">
+        <img src="../entry-9/images/Artboard3.jpg">
+        <img src="../entry-9/images/Artboard4.png">
+    </div>
+    <button class="prev" onclick="changeImage(-1)">❮</button>
+    <button class="next" onclick="changeImage(1)">❯</button>
+</div>
 
 
 
-<script src="script.js"></script>
+<script>
+   let currentIndex = 0;
+
+function changeImage(n) {
+    currentIndex += n;
+
+    const gallery = document.querySelector('.gallery');
+    const images = document.querySelectorAll('.gallery img');
+    
+    if (currentIndex > images.length - 1) {
+        currentIndex = 0;
+    } else if (currentIndex < 0) {
+        currentIndex = images.length - 1;
+    }
+
+    const scrollValue = currentIndex * images[0].clientWidth;
+    gallery.style.transform = `translateX(-${scrollValue}px)`;
+}
+</script>
+
 </body>
 </html>
