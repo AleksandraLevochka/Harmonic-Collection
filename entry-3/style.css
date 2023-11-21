@@ -65,7 +65,7 @@ h1 {
    font-size: 30px;
    text-align: center;
    margin-bottom: 10px;
-   margin-top: 20px;
+   margin-top: 5px;
 }
 
 .list-container {
@@ -130,24 +130,26 @@ h1 {
  }
 
 
- /* lists of places */
+ /* lists of places with images*/
 
   .grid-container {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    margin-bottom: 80px;
+    margin-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
   
   .grid-item {
     flex: 1;
     text-align: center;
-    padding: 10px;
+    padding: 3px;
     position: relative;
   }
   
   .custom-image-container {
-    max-width: 500px;
+    max-width: 600px;
     text-align: center;
   }
   
@@ -155,3 +157,4 @@ h1 {
     max-width: 100%;
     height: auto;
   }
+
