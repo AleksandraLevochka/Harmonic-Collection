@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&family=Work+Sans:ital,wght@0,100;0,300;0,400;0,500;0,600;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&family=Poppins:ital,wght@0,200;0,300;0,400;0,600;1,200;1,300;1,400&display=swap');
 
 body {
    background-color:#fcf6e1;
@@ -44,6 +44,7 @@ h1 {
    text-align:justify;
    line-height: 1.25;
    color: #592828;
+   margin-bottom: 80px;
 }
 
 
@@ -57,16 +58,15 @@ h1 {
     float: left;
  }
 
- h2 { 
-    font-weight: 500;
-    font-style: italic;
-    font-size: 90px;
-    margin-top: 200px;
-    margin-bottom: 50px;
-    margin-right: 30px;
-    text-align: center;
-    color: #e65c00;
- }
+ .h2 {
+   font-family: 'Poppins';
+   color: #e65c00;
+   font-weight: 300;
+   font-size: 30px;
+   text-align: center;
+   margin-bottom: 10px;
+   margin-top: 20px;
+}
 
 .list-container {
    text-align: left;
@@ -128,3 +128,30 @@ h1 {
     text-align: left;
     color: #592828;
  }
+
+
+ /* lists of places */
+
+  .grid-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 80px;
+  }
+  
+  .grid-item {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+  }
+  
+  .custom-image-container {
+    max-width: 500px;
+    text-align: center;
+  }
+  
+  .custom-image-container img {
+    max-width: 100%;
+    height: auto;
+  }
