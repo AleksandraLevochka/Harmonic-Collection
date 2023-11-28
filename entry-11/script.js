@@ -53,13 +53,13 @@ function getRandomValue(array) {
 // wawy line 
 
 document.addEventListener('DOMContentLoaded', function () {
-    // Get the image element by its ID
+
     var changingImage = document.getElementById('changingImage');
   
-    // Array of image sources
+    // Array of images
     var imageSources = ['images/line.png', 'images/line2.png', 'images/line3.png'];
   
-    // Initial index
+
     var currentIndex = 0;
   
     // Function to change the image
@@ -67,22 +67,66 @@ document.addEventListener('DOMContentLoaded', function () {
       // Increment the index
       currentIndex++;
   
-      // Reset the index if it goes beyond the array length
+ 
       if (currentIndex >= imageSources.length) {
         currentIndex = 0;
       }
-  
-      // Set the new image source and adjust opacity for a smooth transition
       changingImage.style.opacity = 0;
       setTimeout(function () {
         changingImage.src = imageSources[currentIndex];
         changingImage.style.opacity = 1;
-      }, 500); // Set timeout to match the transition duration
+      }, 500); 
     }
-  
-    // Set an interval to continuously change the image (adjust the interval based on your preference)
+
     setInterval(changeImage, 2000); // Change image every 2 seconds
   });
+
+  // arrow 
+
+  document.addEventListener('DOMContentLoaded', function () {
+    var arrowImage = document.getElementById('revealingArrow');
+    var textElement = document.getElementById('revealingText');
+    var anotherArrowImage = document.getElementById('revealingAnotherArrow');
+    var anotherTextElement = document.getElementById('revealingAnotherText');
+  
+    function revealElements() {
+      var arrowRect = arrowImage.getBoundingClientRect();
+      var textRect = textElement.getBoundingClientRect();
+  
+      // Check if the first set of elements is within the viewport
+      if (arrowRect.top < window.innerHeight && textRect.bottom >= 0) {
+        arrowImage.style.opacity = 1;
+        textElement.style.opacity = 1;
+        // Remove the scroll event listener for the first set of elements
+        window.removeEventListener('scroll', revealElements);
+        
+        // Add a new scroll event listener for the second set of elements
+        window.addEventListener('scroll', revealAnotherElements);
+      }
+    }
+  
+    function revealAnotherElements() {
+      var anotherArrowRect = anotherArrowImage.getBoundingClientRect();
+      var anotherTextRect = anotherTextElement.getBoundingClientRect();
+  
+      // Check if the second set of elements is within the viewport
+      if (anotherArrowRect.top < window.innerHeight && anotherTextRect.bottom >= 0) {
+        anotherArrowImage.style.opacity = 1;
+        anotherTextElement.style.opacity = 1;
+        // Remove the scroll event listener for the second set of elements
+        window.removeEventListener('scroll', revealAnotherElements);
+      }
+    }
+  
+    // Attach the revealElements function to the scroll event
+    window.addEventListener('scroll', revealElements);
+  });
+  
+  
+  
+  
+  
+  
   
 
 

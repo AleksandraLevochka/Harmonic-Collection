@@ -50,16 +50,46 @@ h1 {
 .contact {
     font-family:'Playfair Display';
     font-weight: 400;
-    font-size: 50px;
-    text-align: center;
+    font-size: 40px;
+    text-align: left;
     color: #e65c00;
+    margin-left: 80px;
+    margin-top: -650px;
  }
+
+ .hidden-text {
+    opacity: 0; /* Initially hidden */
+    transition: opacity 1s ease-in-out; /* Add a smooth transition effect */
+
+    font-family:'Playfair Display';
+    font-weight: 300;
+    font-style: italic;
+    font-size: 40px;
+    text-align: left;
+    color: #e65c00;
+    margin-left: 80px;
+    margin-bottom: -1000px;
+  }
+
+  .hidden-text-2 {
+    opacity: 0; /* Initially hidden */
+    transition: opacity 1s ease-in-out; /* Add a smooth transition effect */
+
+    font-family:'Playfair Display';
+    font-weight: 300;
+    font-style: italic;
+    font-size: 40px;
+    text-align: left;
+    color: #e65c00;
+    margin-left: 1100px;
+  }
 
 
  .container {
     position: relative;
   }
   
+
   .line {
     width: 450px;
     height: auto;
@@ -79,4 +109,40 @@ h1 {
     font-style: italic;
     color: #592828;
   }
+
+/* for arrows */
+
+.custom-container {
+    height: 100vh;
+  }
   
+  .hidden-arrow {
+    width: 400px;
+    height: auto;
+    opacity: 0; /* Initially hidden */
+    transition: opacity 1s ease-in-out; /* Add a smooth transition effect */
+    margin-left: 370px;
+    margin-top: -200px;
+    margin-bottom: -50px;
+    transform: rotate(-20deg);
+  }
+
+  .hidden-arrow-2 {
+    width: 500px;
+    height: auto;
+    opacity: 0; /* Initially hidden */
+    transition: opacity 1s ease-in-out; /* Add a smooth transition effect */
+    margin-left: 720px;
+    margin-top: -1500px;
+    margin-bottom: -50px;
+    transform: rotate(20deg);
+  }
+
+  
+/* end */
+
+.img {
+    max-width: 400px;
+    margin-top: -1000px;
+    margin-left: 100px;
+}
