@@ -136,7 +136,7 @@ h1 {
     transition: opacity 1s ease-in-out; /* Add a smooth transition effect */
     margin-left: 720px;
     margin-top: -800px;
-    margin-bottom: -50px;
+    margin-bottom: -80px;
     transform: rotate(15deg);
   }
 

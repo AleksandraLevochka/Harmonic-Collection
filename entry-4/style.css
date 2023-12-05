@@ -47,34 +47,15 @@ h1 {
  }
 
 
- h2 { 
-    font-weight: 500;
-    font-style: italic;
-    font-size: 90px;
-    margin-top: 200px;
-    margin-bottom: 100px;
-    margin-right: 30px;
-    text-align: center;
-    color: #e65c00;
-    
- }
-
-.list-container {
-   text-align: left;
-   max-width: 1200px;
-   margin: 0 auto;
+ .h2 {
+   font-family: 'Poppins';
+   color: #e65c00;
+   font-weight: 300;
+   font-size: 30px;
+   text-align: center;
+   margin-bottom: 10px;
+   margin-top: 5px;
 }
-
- ul{
-    font-weight: 400;
-    font-size: 18px;
-    margin-left: 30px;
-    margin-top: 50px;
-    margin-bottom: 80px;
-    padding-left: 5px;
-    color: #592828;
- }
-
 
  .paragraph2 {
     font-weight: 400;
@@ -87,24 +68,30 @@ h1 {
  }
 
 
-.container {
-   height:fit-content;
-}
+ /* lists of places with images*/
 
-.image7 {
-   margin-right: 50%;
-   float: left;
-   max-width: 40%;
-}
-
-.image8 {
-   margin-left: 50px;
-   max-width: 40%;
-   float: right;
-}
-
-.clear::after {
-   content: "";
-   display: table;
-   clear: both;
-} /*trying to clear up modifications for the images  to push the text under the images */
+ .grid-container {
+   display: flex;
+   justify-content: space-between;
+   align-items: flex-start;
+   margin-bottom: 30px;
+   padding-left: 10px;
+   padding-right: 10px;
+ }
+ 
+ .grid-item {
+   flex: 1;
+   text-align: center;
+   padding: 3px;
+   position: relative;
+ }
+ 
+ .custom-image-container {
+   max-width: 600px;
+   text-align: center;
+ }
+ 
+ .custom-image-container img {
+   max-width: 100%;
+   height: auto;
+ }

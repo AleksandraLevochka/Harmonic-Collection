@@ -61,19 +61,19 @@ a {
 
   .icon {
     object-fit: contain;
-    max-height: 500px; /* Adjust the maximum height as needed */
-    max-width: 500px; /* Adjust the maximum width as needed */
+    max-height: 500px; /* Adjust the maximum height  */
+    max-width: 500px; /* Adjust the maximum width  */
  }
  
  .pic1 {
-    left: 5px; /* Adjust the left position as needed */
-    top: 10px; /* Adjust the top position as needed */
+    left: 5px; /* Adjust the left position  */
+    top: 10px; /* Adjust the top position  */
     margin-left: 10px;
  }
  
  .pic2 {
-    right: 10px; /* Adjust the right position as needed */
-    top: 30px; /* Adjust the top position as needed */
+    right: 10px; /* Adjust the right position  */
+    top: 30px; /* Adjust the top position */
     margin-right: 20px;
  }
 
@@ -140,13 +140,18 @@ button {
     background-color: #fcf6e1;
     border: none;
     cursor: pointer;
-    color: #555;
 }
 
 .prev {
-    left: 10px;
+  left: 10px;
 }
 
 .next {
-    right: 10px;
+  right: 10px;
+}
+
+.prev img, 
+.next img {
+    width: 20px; /* Set the desired width for your buttons */
+    height: auto;
 }
