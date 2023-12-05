@@ -50,7 +50,8 @@ h1 {
    list-style: none;
    display: flex;
    gap: 60px; /* Adjust the spacing between icons as needed */
-   align-items: center;
+
+   margin-left: 50px;
 }
 
 .icon-line li {
@@ -95,6 +96,7 @@ h1 {
    height: auto; /* Maintain the image's aspect ratio */
 }
 
+/* small screens */
 
 @media screen and (max-width: 430px) {
    .navigation {
