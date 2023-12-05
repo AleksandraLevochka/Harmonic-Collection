@@ -37,6 +37,7 @@ a {
 
 .paragraph1 {
     font-weight: 400;
+    font-family: 'Poppins';
     font-size: 20px;
     max-width: 50ch;
     margin-top: 30px;
@@ -79,7 +80,7 @@ a {
     font-size: 15px;
     max-width: 60ch;
     margin-top: 20px;
-    margin-left: 665px;
+    margin-left: 590px;
     text-align:left;
     color: #592828;
 }
