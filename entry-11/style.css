@@ -140,11 +140,91 @@ h1 {
     transform: rotate(15deg);
   }
 
-  
 /* end */
+
 
 .img {
     max-width: 400px;
     margin-top: -1000px;
     margin-left: 100px;
+}
+
+
+
+/* smaller screens */
+
+@media screen and (max-width: 430px) {
+  .navigation {
+    display: flex; 
+    justify-content: space-between;
+    margin-bottom: 12px;
+    margin-top: 12px;
+    margin-left: 12px;
+    margin-right: 12px;
+    border-bottom: 0.5px solid #592828;
+    align-items: center;
+    text-align: center;
+    
+  }
+
+  .navigation-left,
+  .navigation-middle,
+  .navigation-right {
+      margin: 10px 0;
+  }
+
+  .dynamicParagraph {
+    font-size: 33px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    text-align:center; 
+    letter-spacing: 2px;
+ }
+
+ .paragraph {
+  font-size: 25px;
+  margin-top: 10px;
+  margin-bottom: -96px;
+}
+
+.line {
+  width: 220px;
+  height: auto;
+  margin-left: 105px;
+  margin-bottom: -50px;
+
+  top: 100%; /* Position the image underneath the paragraph */
+}
+
+.custom-container {
+  height: 35vh;
+}
+
+.hidden-text {
+  font-size: 13px;
+  margin-left: 40px;
+  margin-bottom: -1000px;
+}
+
+.hidden-text-2 {
+  font-size: 13px;
+  margin-left: 300px;
+  margin-top: -10px;
+  margin-bottom: -100px;
+}
+
+.hidden-arrow {
+  width: 130px;
+  margin-left: 80px;
+  margin-top: -20px;
+  margin-bottom: -10px;
+}
+
+.hidden-arrow-2 {
+  width: 150px;
+  margin-left: 220px;
+  margin-top: -1000px;
+  margin-bottom: -10px;
+}
+
 }

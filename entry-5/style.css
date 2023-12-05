@@ -30,7 +30,7 @@ a {
 h1 {
     font-weight:400;
     font-size: 80px;
-    margin-left: 50px;
+    margin-left: 35px;
     margin-top: 40px;
     margin-bottom: 20px;
     text-align: center;
@@ -90,6 +90,53 @@ position: relative;
 
 .pic2-container:hover {
 transform: scale(1.25);
+}
+
+
+
+/* small screens */
+
+@media screen and (max-width: 430px) {
+   .navigation {
+     margin-bottom: 10px;
+     margin-top: 8px;
+     margin-left: 14px;
+     margin-right: 14px;
+     border-bottom: 0.5px solid #592828;
+     
+   }
+ 
+   .navigation-left,
+   .navigation-middle,
+   .navigation-right {
+       margin: 10px 0;
+   }
+
+   .h1 {
+      font-size: 60px;
+      margin-top: 40px;
+      margin-bottom: 20px;
+  }
+
+  .icons {
+   height: 191px;
+   width: 186px;
+   position: fixed;
+}
+
+.pic1 {
+   left: 35px;
+   top: 60px;
+   max-width: 150px;
+}
+
+
+.pic2-container {
+left: 200px;
+top: 200px;
+max-width: 150px;
+}
+
 }
 
  

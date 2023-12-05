@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&family=Poppins:ital,wght@0,200;0,300;0,400;0,600;1,200;1,300;1,400&display=swap');
 
+
 body {
   background-color:#fcf6e1;
 }
@@ -58,11 +59,6 @@ a {
     display: none;
 }
 
-@media screen and (max-width: 768px) {
-    .h1 br {
-      display: block; /* Show line break on smaller screens */
-    }
-  }
 
 .h2 {
     font-family: 'Poppins';
@@ -163,5 +159,99 @@ a {
     text-align:left;
     margin-bottom: 20px;
  }
+
+
+
+/* smaller screens */
+
+ @media screen and (max-width: 430px) {
+  .navigation {
+    display: flex; 
+    justify-content: space-between;
+    margin-bottom: 12px;
+    margin-top: 12px;
+    margin-left: 12px;
+    margin-right: 12px;
+
+    align-items: center;
+    text-align: center;
+    
+  }
+
+  .navigation-left,
+  .navigation-middle,
+  .navigation-right {
+      margin: 10px 0;
+  }
+
+  .centered-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 30vh; 
+    flex-direction: column;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+
+  .h1 {
+      font-size: 25px;
+      margin-top: 40px;
+      margin-bottom: 5px;
+      margin-left: 5px;
+      margin-right: 5px;
+  }
+
+  .h2 {
+      font-size: 24px;
+      margin-top: 60px;
+  }
+
+  .paragraph1 {
+      font-size: 15px;
+      max-width: 42ch;
+      text-align: center;
+      margin-bottom: 20px;
+  }
+
+  .paragraph2 {
+      font-size: 10px;
+      max-width: 100%;
+      text-align: center;
+      margin-bottom: 20px;
+  }
+
+  .grid-container {
+      flex-direction: column;
+      margin-bottom: 15px;
+  }
+
+  .grid-item {
+      width: 90%;
+      margin-bottom: 20px;
+  }
+
+  .custom-image-container {
+    max-width: 100%;
+    text-align: center;
+    margin-left: 10px;
+  }
+
+
+  h2 {
+      font-size: 30px;
+  }
+
+  .text-container {
+      max-width: 100%;
+      text-align: center;
+      padding: 10px;
+  }
+
+  .grid-item p {
+      font-size: 14px;
+      margin-bottom: 10px;
+  }
+}
 
  
